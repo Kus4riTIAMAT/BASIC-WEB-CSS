@@ -1,0 +1,135 @@
+.banner {
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("flower.png");
+    background-size: cover;
+    background-position: center;
+}
+
+image {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+header ul li a {
+    color: white;
+    font-weight: 600;
+    margin-left: 50px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    left: 1300px;
+}
+
+header .logo {
+    width: 0px;
+    display: flexbox;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.content .textbox {
+    position: relative;
+    max-width: 800px;
+}
+
+.content .textbox h2 {
+    color: snow;
+    font-size: 4em;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding: 8px 20px;
+    background: white;
+    color: black;
+    border-radius: 100px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.content .textbox p {
+    margin-top: 25px;
+    margin-bottom: 250px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 50%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 5px;
+    width: 55%;
+    background: rgb(99, 6, 63);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    margin-left: 1350px;
+}
